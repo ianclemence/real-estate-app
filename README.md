@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real Estate App Web Application Documentation
+
+This repository contains the source code for Real Estate App, a web application that helps users discover and browse available properties for rent or purchase.
+
+## How Real Estate App Works
+
+Real Estate App is a Next.js web application that uses the RapidAPI to access data about available properties. The user can browse properties by location, price range, and property type. The application displays detailed information about each property, such as its address, photos, price, and description.
+
+The user can also use the search functionality to find specific properties, and save their favorite properties for later viewing.
+
+## Technology Stack
+
+Real Estate App has been created using the following technologies:
+
+* Next.js - for building the user interface and displaying data.
+* RapidAPI - for accessing data about available properties.
 
 ## Getting Started
 
-First, run the development server:
+To run Real Estate App locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Clone the repository to your local machine using `git clone https://github.com/ianclemence/real-estate-app.git`.
+2. Navigate to the project directory using `cd real-estate-app`.
+3. Run `npm install` to install the necessary dependencies.
+4. Copy the `.env.example` file to `.env.local` and update the necessary environment variables.
+5. Run `npm run dev` to start the development server.
+6. Visit `http://localhost:3000` in your web browser to view the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Support
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+If you have any questions or issues with Real Estate App, please contact me.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## License
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This web application is licensed under the MIT license.
