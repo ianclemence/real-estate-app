@@ -1,4 +1,4 @@
-# Real Estate App Web Application Documentation
+# Real Estate App
 
 This repository contains the source code for Real Estate App, a web application that helps users discover and browse available properties for rent or purchase.
 
